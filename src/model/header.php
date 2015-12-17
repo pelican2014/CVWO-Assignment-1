@@ -13,3 +13,6 @@
     <!-- Customised Styles -->
     <link rel="stylesheet" type="text/css" href="/static/css/nav.css" media="screen">
     <link rel="stylesheet" type="text/css" href="/static/css/footer.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="/static/css/home.css" media="screen">
+
+    <title>MarinaCare</title>

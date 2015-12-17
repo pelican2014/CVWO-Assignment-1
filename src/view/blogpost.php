@@ -1,32 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-
-  	<?php
-  	  include $_SERVER['DOCUMENT_ROOT']."/model/header.php";
-  	?>
-
-    <title>Blog Posts | MarinaCare</title>
-    <!-- Customised Styles -->
-
-  </head>
-
-
-  <body>
-    <!-- Modularised Sections -->
-  	<?php
-  	  /* Navigation bar */
-  	  include $_SERVER['DOCUMENT_ROOT']."/view/common/nav.php";
-  	?>
-
-  	<!-- CONTENT -->
-
-
-  	<?php
-  	  /* Footer */
-      include $_SERVER['DOCUMENT_ROOT']."/view/common/footer.php";
-  	  /* Bootstrap core JavaScript */
-  	  include $_SERVER['DOCUMENT_ROOT']."/helpers/utils.php";
-  	?>
-  </body>
-</html>
+<div id="posts-page"> <!-- content section id name is synergised with navbar li id name -->
+    <div class="container">
+      <!--home page message-->
+      <div class="jumbotron">
+        <h1>Okay Can.</h1>
+      </div>
+    </div>
+</div>
