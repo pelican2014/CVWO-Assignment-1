@@ -1,11 +1,11 @@
-# CVWO-Assignment-1
-### YANG XIYA
-### A0143972Y
+#### CVWO-Assignment-1
+* YANG XIYA
+* A0143972Y
 
-## Working on:
-.. #### * Adding headers and footers
+#### To Do
+* Front-end user interface
+* Interaction with database
+* Set up cron job
 
-## To Do:
-.. #### * Front-end user interface
-.. #### * Interaction with database
-.. #### * Set up cron job
+#### Disclaimer
+MarinaCare is a fictitious brand name created for use in this personal project.
