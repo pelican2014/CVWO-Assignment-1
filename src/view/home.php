@@ -1,5 +1,4 @@
-<div id="home-page">
-    <div class="container">
+    <div class="container" id="home-page">
       <!--home page message-->
       <div class="jumbotron">
         <h2>Welcome to MarinaCare Official Blog</h2>
@@ -31,4 +30,3 @@
         </div>
       </div>
     </div>
-</div>

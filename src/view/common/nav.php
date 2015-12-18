@@ -8,7 +8,8 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">MarinaCare</a>
+          <!-- clicking brand name is equivalent to clicking home tab -->
+          <a class="navbar-brand" href="#" onclick="clickHome();">MarinaCare</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
@@ -16,7 +17,7 @@
             <li id="navbar-posts"><a href="#">Posts</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li id="navbar-login"><a href="#">Log In<span class="sr-only">(current)</span></a></li>
+            <li id="navbar-login"><a href="#">Login<span class="sr-only">(current)</span></a></li>
           </ul>
         </div>
       </div>

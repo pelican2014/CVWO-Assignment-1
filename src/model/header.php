@@ -11,6 +11,7 @@
     <link href="/static/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Customised Styles -->
+    <link rel="stylesheet" type="text/css" href="/static/css/index.css" media="screen">
     <link rel="stylesheet" type="text/css" href="/static/css/nav.css" media="screen">
     <link rel="stylesheet" type="text/css" href="/static/css/footer.css" media="screen">
     <link rel="stylesheet" type="text/css" href="/static/css/home.css" media="screen">

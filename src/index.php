@@ -3,31 +3,40 @@
   <head>
 
   	<?php
-  	  include $_SERVER['DOCUMENT_ROOT']."/model/header.php";
+  	  include_once $_SERVER['DOCUMENT_ROOT']."/model/header.php";
   	?>
 
   </head>
 
 
   <body>
-    <!-- Modularised Sections -->
-  	<?php
-  	  include $_SERVER['DOCUMENT_ROOT']."/view/common/nav.php";
-  	?>
+    <!-- following structure adopted for sticky footer implementation -->
+    <div id="wrapper">
+      <div id="body">
+        <!-- Modularised Sections -->
+  	    <?php
+  	      include_once $_SERVER['DOCUMENT_ROOT']."/view/common/nav.php";
+  	    ?>
 
-    <div id="page-content">
-      <!-- initialize with home.php -->
-      <!-- Switch page content with js -->
-      <?php
-        include $_SERVER['DOCUMENT_ROOT']."/view/home.php";
-      ?>
+        <div id="page-content">
+          <!-- initialize with home.php -->
+          <!-- Switch page content with js -->
+          <?php
+            include_once $_SERVER['DOCUMENT_ROOT']."/view/home.php";
+          ?>
+        </div>
+      </div>
+
+      <div id="footer">
+  	    <?php
+          include_once $_SERVER['DOCUMENT_ROOT']."/view/common/footer.php";
+  	    ?>
+      </div>
     </div>
 
-  	<?php
-  	  /* Footer */
-      include $_SERVER['DOCUMENT_ROOT']."/view/common/footer.php";
-  	  /* Bootstrap core JavaScript */
-  	  include $_SERVER['DOCUMENT_ROOT']."/helpers/utils.php";
-  	?>
+    <!--Bootstrap core JavaScript -->
+    <?php
+      include_once $_SERVER['DOCUMENT_ROOT']."/helpers/utils.php";
+    ?>
   </body>
 </html>

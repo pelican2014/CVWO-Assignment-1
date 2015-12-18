@@ -1,19 +1,19 @@
-.jumbotron h1 {
+#home-page .jumbotron h1 {
 	padding-bottom: 24px;
 	padding-top: 16px;
 }
 
-.illustration-photos{
+#home-page .illustration-photos{
     background-color: #efefef;
     border-bottom: 1px solid #dbdbdb;
 }
 
-.illustration-photos h2{
+#home-page .illustration-photos h2{
     color: #393c3d;
     font-size: 24px;
 }
 
-.illustration-photos p{
+#home-page .illustration-photos p{
     font-size: 15px;
     margin-bottom: 13px;
 }
