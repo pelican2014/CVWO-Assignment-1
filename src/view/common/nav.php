@@ -9,15 +9,15 @@
             <span class="icon-bar"></span>
           </button>
           <!-- clicking brand name is equivalent to clicking home tab -->
-          <a class="navbar-brand" href="#" onclick="clickHome();">MarinaCare</a>
+          <a class="navbar-brand" href="/view/home.php">MarinaCare</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li id="navbar-home" class="active"><a href="#">Home</a></li>
-            <li id="navbar-posts"><a href="#">Posts</a></li>
+            <li id="navbar-home"><a href="/view/home.php">Home</a></li>
+            <li id="navbar-posts"><a href="/view/posts.php">Posts</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li id="navbar-login"><a href="#">Login<span class="sr-only">(current)</span></a></li>
+            <li id="navbar-login"><a href="/view/login.php">Login<span class="sr-only">(current)</span></a></li>
           </ul>
         </div>
       </div>
