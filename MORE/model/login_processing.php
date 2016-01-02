@@ -20,9 +20,9 @@ $userInput = $_POST['pw'];
 $loginRes = MCBlog\DB\login($userInput, $mysqli);
 
 if ($loginRes['isLocked']) {
-  header('Location: /view/login_page.php?error=2');
+  header('Location: /view/login.php?error=2');
 } elseif ($loginRes['success']) {
   header('Location: /view/posts.php');
 } else {
-  header('Location: /view/login_page.php?error=1');
+  header('Location: /view/login.php?error=1');
 }

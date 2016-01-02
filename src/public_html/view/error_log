@@ -28,3 +28,100 @@
 [01-Jan-2016 17:11:26 Asia/Singapore] PHP Warning:  include(/home/xiyaproj/public_html/model/view_posts.php): failed to open stream: No such file or directory in /home/xiyaproj/public_html/view/posts.php on line 35
 [01-Jan-2016 17:11:26 Asia/Singapore] PHP Warning:  include(): Failed opening '/home/xiyaproj/public_html/model/view_posts.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/xiyaproj/public_html/view/posts.php on line 35
 [01-Jan-2016 17:18:45 Asia/Singapore] PHP Parse error:  syntax error, unexpected 'incorrectPassword' (T_STRING), expecting ',' or ';' in /home/xiyaproj/public_html/view/login.php on line 36
+[02-Jan-2016 04:10:39 Asia/Singapore] PHP Fatal error:  Call to undefined function MCBlog\Login\sec_session_start() in /home/xiyaproj/public_html/view/login_box.php on line 9
+[02-Jan-2016 18:11:03 Asia/Singapore] PHP Parse error:  syntax error, unexpected ')' in /home/xiyaproj/public_html/model/db.php on line 137
+[02-Jan-2016 18:13:34 Asia/Singapore] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/xiyaproj/public_html/view/home.php:5) in /home/xiyaproj/public_html/model/db.php on line 33
+[02-Jan-2016 18:13:34 Asia/Singapore] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/xiyaproj/public_html/view/home.php:5) in /home/xiyaproj/public_html/model/db.php on line 33
+[02-Jan-2016 18:13:34 Asia/Singapore] PHP Warning:  session_regenerate_id(): Cannot regenerate session id - headers already sent in /home/xiyaproj/public_html/model/db.php on line 34
+[02-Jan-2016 18:19:06 Asia/Singapore] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/xiyaproj/public_html/view/login.php:5) in /home/xiyaproj/public_html/model/db.php on line 33
+[02-Jan-2016 18:19:06 Asia/Singapore] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/xiyaproj/public_html/view/login.php:5) in /home/xiyaproj/public_html/model/db.php on line 33
+[02-Jan-2016 18:19:06 Asia/Singapore] PHP Warning:  session_regenerate_id(): Cannot regenerate session id - headers already sent in /home/xiyaproj/public_html/model/db.php on line 34
+[02-Jan-2016 18:19:08 Asia/Singapore] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/xiyaproj/public_html/view/home.php:5) in /home/xiyaproj/public_html/model/db.php on line 33
+[02-Jan-2016 18:19:08 Asia/Singapore] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/xiyaproj/public_html/view/home.php:5) in /home/xiyaproj/public_html/model/db.php on line 33
+[02-Jan-2016 18:19:08 Asia/Singapore] PHP Warning:  session_regenerate_id(): Cannot regenerate session id - headers already sent in /home/xiyaproj/public_html/model/db.php on line 34
+[02-Jan-2016 18:19:16 Asia/Singapore] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/xiyaproj/public_html/view/home.php:5) in /home/xiyaproj/public_html/model/db.php on line 33
+[02-Jan-2016 18:19:16 Asia/Singapore] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/xiyaproj/public_html/view/home.php:5) in /home/xiyaproj/public_html/model/db.php on line 33
+[02-Jan-2016 18:19:16 Asia/Singapore] PHP Warning:  session_regenerate_id(): Cannot regenerate session id - headers already sent in /home/xiyaproj/public_html/model/db.php on line 34
+[02-Jan-2016 18:22:41 Asia/Singapore] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/xiyaproj/public_html/view/home.php:5) in /home/xiyaproj/public_html/model/db.php on line 33
+[02-Jan-2016 18:22:41 Asia/Singapore] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/xiyaproj/public_html/view/home.php:5) in /home/xiyaproj/public_html/model/db.php on line 33
+[02-Jan-2016 18:22:41 Asia/Singapore] PHP Warning:  session_regenerate_id(): Cannot regenerate session id - headers already sent in /home/xiyaproj/public_html/model/db.php on line 34
+[02-Jan-2016 18:23:08 Asia/Singapore] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/xiyaproj/public_html/view/home.php:5) in /home/xiyaproj/public_html/model/db.php on line 33
+[02-Jan-2016 18:23:08 Asia/Singapore] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/xiyaproj/public_html/view/home.php:5) in /home/xiyaproj/public_html/model/db.php on line 33
+[02-Jan-2016 18:23:08 Asia/Singapore] PHP Warning:  session_regenerate_id(): Cannot regenerate session id - headers already sent in /home/xiyaproj/public_html/model/db.php on line 34
+[02-Jan-2016 18:23:27 Asia/Singapore] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/xiyaproj/public_html/view/login.php:5) in /home/xiyaproj/public_html/model/db.php on line 33
+[02-Jan-2016 18:23:27 Asia/Singapore] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/xiyaproj/public_html/view/login.php:5) in /home/xiyaproj/public_html/model/db.php on line 33
+[02-Jan-2016 18:23:27 Asia/Singapore] PHP Warning:  session_regenerate_id(): Cannot regenerate session id - headers already sent in /home/xiyaproj/public_html/model/db.php on line 34
+[02-Jan-2016 18:29:17 Asia/Singapore] PHP Fatal error:  Call to undefined function createLoginBox() in /home/xiyaproj/public_html/view/posts.php on line 29
+[02-Jan-2016 18:30:07 Asia/Singapore] PHP Fatal error:  Call to undefined function MCBlog\createLoginBox() in /home/xiyaproj/public_html/view/posts.php on line 29
+[02-Jan-2016 18:33:12 Asia/Singapore] PHP Fatal error:  Call to undefined function MCBlog\MCBlog\DB\sec_session_start() in /home/xiyaproj/public_html/model/postBoxes.php on line 13
+[02-Jan-2016 18:39:56 Asia/Singapore] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/xiyaproj/public_html/view/posts.php:5) in /home/xiyaproj/public_html/model/db.php on line 33
+[02-Jan-2016 18:39:56 Asia/Singapore] PHP Warning:  session_regenerate_id(): Cannot regenerate session id - headers already sent in /home/xiyaproj/public_html/model/db.php on line 34
+[02-Jan-2016 18:39:56 Asia/Singapore] PHP Warning:  session_regenerate_id(): Cannot regenerate session id - headers already sent in /home/xiyaproj/public_html/model/db.php on line 34
+[02-Jan-2016 18:40:45 Asia/Singapore] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/xiyaproj/public_html/view/posts.php:5) in /home/xiyaproj/public_html/model/db.php on line 33
+[02-Jan-2016 18:40:45 Asia/Singapore] PHP Warning:  session_regenerate_id(): Cannot regenerate session id - headers already sent in /home/xiyaproj/public_html/model/db.php on line 34
+[02-Jan-2016 18:57:33 Asia/Singapore] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/xiyaproj/public_html/view/home.php:5) in /home/xiyaproj/public_html/model/db.php on line 33
+[02-Jan-2016 18:57:33 Asia/Singapore] PHP Warning:  session_regenerate_id(): Cannot regenerate session id - headers already sent in /home/xiyaproj/public_html/model/db.php on line 34
+[02-Jan-2016 18:57:47 Asia/Singapore] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/xiyaproj/public_html/view/login.php:5) in /home/xiyaproj/public_html/model/db.php on line 33
+[02-Jan-2016 18:57:47 Asia/Singapore] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/xiyaproj/public_html/view/login.php:5) in /home/xiyaproj/public_html/model/db.php on line 33
+[02-Jan-2016 18:57:47 Asia/Singapore] PHP Warning:  session_regenerate_id(): Cannot regenerate session id - headers already sent in /home/xiyaproj/public_html/model/db.php on line 34
+[02-Jan-2016 19:05:54 Asia/Singapore] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/xiyaproj/public_html/view/login.php:5) in /home/xiyaproj/public_html/model/db.php on line 33
+[02-Jan-2016 19:05:54 Asia/Singapore] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/xiyaproj/public_html/view/login.php:5) in /home/xiyaproj/public_html/model/db.php on line 33
+[02-Jan-2016 19:05:54 Asia/Singapore] PHP Warning:  session_regenerate_id(): Cannot regenerate session id - headers already sent in /home/xiyaproj/public_html/model/db.php on line 34
+[02-Jan-2016 19:06:31 Asia/Singapore] PHP Warning:  mysqli::mysqli(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/xiyaproj/public_html/view/login.php on line 10
+[02-Jan-2016 19:06:31 Asia/Singapore] PHP Warning:  mysqli::mysqli(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/xiyaproj/public_html/view/login.php on line 10
+[02-Jan-2016 19:07:41 Asia/Singapore] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/xiyaproj/public_html/view/login.php:5) in /home/xiyaproj/public_html/model/db.php on line 33
+[02-Jan-2016 19:07:41 Asia/Singapore] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/xiyaproj/public_html/view/login.php:5) in /home/xiyaproj/public_html/model/db.php on line 33
+[02-Jan-2016 19:07:41 Asia/Singapore] PHP Warning:  session_regenerate_id(): Cannot regenerate session id - headers already sent in /home/xiyaproj/public_html/model/db.php on line 34
+[02-Jan-2016 19:07:59 Asia/Singapore] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/xiyaproj/public_html/view/posts.php:5) in /home/xiyaproj/public_html/model/db.php on line 33
+[02-Jan-2016 19:07:59 Asia/Singapore] PHP Warning:  session_regenerate_id(): Cannot regenerate session id - headers already sent in /home/xiyaproj/public_html/model/db.php on line 34
+[02-Jan-2016 19:08:48 Asia/Singapore] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/xiyaproj/public_html/view/home.php:5) in /home/xiyaproj/public_html/model/db.php on line 33
+[02-Jan-2016 19:08:48 Asia/Singapore] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/xiyaproj/public_html/view/home.php:5) in /home/xiyaproj/public_html/model/db.php on line 33
+[02-Jan-2016 19:08:48 Asia/Singapore] PHP Warning:  session_regenerate_id(): Cannot regenerate session id - headers already sent in /home/xiyaproj/public_html/model/db.php on line 34
+[02-Jan-2016 19:08:50 Asia/Singapore] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/xiyaproj/public_html/view/login.php:5) in /home/xiyaproj/public_html/model/db.php on line 33
+[02-Jan-2016 19:08:50 Asia/Singapore] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/xiyaproj/public_html/view/login.php:5) in /home/xiyaproj/public_html/model/db.php on line 33
+[02-Jan-2016 19:08:50 Asia/Singapore] PHP Warning:  session_regenerate_id(): Cannot regenerate session id - headers already sent in /home/xiyaproj/public_html/model/db.php on line 34
+[02-Jan-2016 19:22:36 Asia/Singapore] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/xiyaproj/public_html/view/home.php:5) in /home/xiyaproj/public_html/model/db.php on line 33
+[02-Jan-2016 19:22:36 Asia/Singapore] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/xiyaproj/public_html/view/home.php:5) in /home/xiyaproj/public_html/model/db.php on line 33
+[02-Jan-2016 19:22:36 Asia/Singapore] PHP Warning:  session_regenerate_id(): Cannot regenerate session id - headers already sent in /home/xiyaproj/public_html/model/db.php on line 34
+[02-Jan-2016 19:22:39 Asia/Singapore] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/xiyaproj/public_html/view/posts.php:5) in /home/xiyaproj/public_html/model/db.php on line 33
+[02-Jan-2016 19:22:39 Asia/Singapore] PHP Warning:  session_regenerate_id(): Cannot regenerate session id - headers already sent in /home/xiyaproj/public_html/model/db.php on line 34
+[02-Jan-2016 19:26:24 Asia/Singapore] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/xiyaproj/public_html/view/home.php:5) in /home/xiyaproj/public_html/model/db.php on line 33
+[02-Jan-2016 19:26:24 Asia/Singapore] PHP Warning:  session_regenerate_id(): Cannot regenerate session id - headers already sent in /home/xiyaproj/public_html/model/db.php on line 34
+[03-Jan-2016 00:56:21 Asia/Singapore] PHP Fatal error:  Call to undefined function MCBlog\DB\sec_session_start() in /home/xiyaproj/public_html/view/posts.php on line 4
+[03-Jan-2016 01:16:03 Asia/Singapore] PHP Warning:  usort() expects parameter 2 to be a valid callback, function 'cmp' not found or invalid function name in /home/xiyaproj/public_html/model/db.php on line 172
+[03-Jan-2016 01:29:40 Asia/Singapore] PHP Fatal error:  Call to undefined function MCBlog\Utils\createEditDeleteStrings() in /home/xiyaproj/public_html/model/db.php on line 187
+[03-Jan-2016 02:11:42 Asia/Singapore] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/xiyaproj/public_html/model/postBoxes.php on line 9
+[03-Jan-2016 02:12:01 Asia/Singapore] PHP Fatal error:  Class 'MCBlog\mysqli' not found in /home/xiyaproj/public_html/model/postBoxes.php on line 39
+[03-Jan-2016 02:12:52 Asia/Singapore] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/xiyaproj/public_html/model/db.php on line 133
+[03-Jan-2016 02:14:24 Asia/Singapore] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/xiyaproj/public_html/model/db.php on line 133
+[03-Jan-2016 02:14:28 Asia/Singapore] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/xiyaproj/public_html/model/db.php on line 133
+[03-Jan-2016 02:19:11 Asia/Singapore] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/xiyaproj/public_html/model/db.php on line 133
+[03-Jan-2016 02:20:40 Asia/Singapore] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/xiyaproj/public_html/model/db.php on line 133
+[03-Jan-2016 02:21:05 Asia/Singapore] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/xiyaproj/public_html/model/db.php on line 133
+[03-Jan-2016 02:21:16 Asia/Singapore] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/xiyaproj/public_html/model/db.php on line 133
+[03-Jan-2016 02:21:25 Asia/Singapore] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/xiyaproj/public_html/model/db.php on line 133
+[03-Jan-2016 02:21:52 Asia/Singapore] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/xiyaproj/public_html/model/db.php on line 133
+[03-Jan-2016 02:24:20 Asia/Singapore] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/xiyaproj/public_html/model/db.php on line 133
+[03-Jan-2016 02:24:57 Asia/Singapore] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/xiyaproj/public_html/model/db.php on line 133
+[03-Jan-2016 02:25:01 Asia/Singapore] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/xiyaproj/public_html/model/db.php on line 133
+[03-Jan-2016 02:25:28 Asia/Singapore] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/xiyaproj/public_html/model/db.php on line 133
+[03-Jan-2016 02:31:33 Asia/Singapore] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/xiyaproj/public_html/model/db.php on line 133
+[03-Jan-2016 02:33:12 Asia/Singapore] PHP Fatal error:  Call to undefined method mysqli_stmt::fetch_assoc() in /home/xiyaproj/public_html/model/db.php on line 133
+[03-Jan-2016 03:31:34 Asia/Singapore] PHP Parse error:  syntax error, unexpected 'post_text' (T_STRING) in /home/xiyaproj/public_html/model/postBoxes.php on line 43
+[03-Jan-2016 03:32:14 Asia/Singapore] PHP Fatal error:  Call to undefined function MCBlog\DB\printr() in /home/xiyaproj/public_html/model/db.php on line 134
+[03-Jan-2016 03:32:38 Asia/Singapore] PHP Fatal error:  Call to undefined function printr() in /home/xiyaproj/public_html/model/db.php on line 134
+[03-Jan-2016 03:59:32 Asia/Singapore] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/xiyaproj/public_html/model/db.php on line 137
+[03-Jan-2016 04:04:49 Asia/Singapore] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/xiyaproj/public_html/model/db.php on line 137
+[03-Jan-2016 04:14:06 Asia/Singapore] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/xiyaproj/public_html/model/db.php on line 137
+[03-Jan-2016 04:18:52 Asia/Singapore] PHP Fatal error:  Class 'MCBlog\DB\mysqli' not found in /home/xiyaproj/public_html/model/db.php on line 124
+[03-Jan-2016 04:19:05 Asia/Singapore] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/xiyaproj/public_html/model/db.php on line 142
+[03-Jan-2016 04:19:46 Asia/Singapore] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/xiyaproj/public_html/model/db.php on line 134
+[03-Jan-2016 04:19:55 Asia/Singapore] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/xiyaproj/public_html/model/db.php on line 134
+[03-Jan-2016 04:21:30 Asia/Singapore] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/xiyaproj/public_html/model/db.php on line 137
+[03-Jan-2016 04:21:39 Asia/Singapore] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/xiyaproj/public_html/model/db.php on line 137
+[03-Jan-2016 04:25:06 Asia/Singapore] PHP Fatal error:  Call to a member function fetch() on a non-object in /home/xiyaproj/public_html/model/db.php on line 137
+[03-Jan-2016 04:37:40 Asia/Singapore] PHP Fatal error:  Call to a member function fetch() on a non-object in /home/xiyaproj/public_html/model/db.php on line 139
+[03-Jan-2016 04:37:49 Asia/Singapore] PHP Fatal error:  Call to a member function fetch() on a non-object in /home/xiyaproj/public_html/model/db.php on line 139
+[03-Jan-2016 04:38:07 Asia/Singapore] PHP Warning:  mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement in /home/xiyaproj/public_html/model/db.php on line 128
+[03-Jan-2016 04:38:27 Asia/Singapore] PHP Fatal error:  Call to a member function fetch() on a non-object in /home/xiyaproj/public_html/model/db.php on line 136
+[03-Jan-2016 04:40:58 Asia/Singapore] PHP Fatal error:  Call to a member function fetch() on a non-object in /home/xiyaproj/public_html/model/db.php on line 136

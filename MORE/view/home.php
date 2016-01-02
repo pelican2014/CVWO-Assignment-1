@@ -1,15 +1,8 @@
-<?php
-  // Start a session
-  include_once $_SERVER['DOCUMENT_ROOT'].'/model/db.php';
-  \MCBlog\DB\sec_session_start();
-?>
-
 <!DOCTYPE html>
 <html lang='en'>
   <head>
 
     <?php
-      // Set up the page
       include_once $_SERVER['DOCUMENT_ROOT'].'/model/header.php';
     ?>
 
@@ -20,7 +13,7 @@
     <!-- following structure adopted for sticky footer implementation -->
     <div id='wrapper'>
       <div id='body'>
-        <!-- Navigation bar-->
+        <!-- Modularised Sections -->
         <?php
           include_once $_SERVER['DOCUMENT_ROOT'].'/view/common/nav.php';
         ?>

@@ -1,8 +1,15 @@
+<?php
+  // Start a session
+  include_once $_SERVER['DOCUMENT_ROOT'].'/model/db.php';
+  \MCBlog\DB\sec_session_start();
+?>
+
 <!DOCTYPE html>
 <html lang='en'>
   <head>
 
     <?php
+      // Set up the page
       include_once $_SERVER['DOCUMENT_ROOT'].'/model/header.php';
     ?>
 
@@ -33,7 +40,11 @@
 
                   <?php
                   if (isset($_GET['error'])) {
-                    echo '<p id=\'incorrectPassword\'>The password is incorrect</p>';
+                    if ($_GET['error'] === '1') {
+                      echo '<p id=\'warning\'>The password is incorrect</p>';
+                    } elseif ($_GET['error'] === '2') {
+                      echo '<p id=\'warning\'>You have attempted too many times. Try again in 15 minutes.</p>';
+                    }
                   }
                   ?>
                   <br>
@@ -57,7 +68,7 @@
 
     <!--Bootstrap core JavaScript -->
     <?php
-      include_once $_SERVER['DOCUMENT_ROOT'].'/helpers/utils.php';
+      include_once $_SERVER['DOCUMENT_ROOT'].'/helpers/enableBootstrap.php';
     ?>
   </body>
 </html>
