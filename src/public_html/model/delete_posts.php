@@ -8,9 +8,9 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/config.php';
 include_once $_SERVER['DOCUMENT_ROOT'] . '/../globals.php';
 include_once $_SERVER['DOCUMENT_ROOT'] . '/model/db.php';
 
-MCBlog\DB\sec_session_start();
+\MCBlog\DB\sec_session_start();
 
-if (MCBlog\DB\login_check()) {
+if (\MCBlog\DB\login_check()) {
 
 	$post_id = intval($_GET['post_id']);
 

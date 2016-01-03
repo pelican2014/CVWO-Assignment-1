@@ -187,10 +187,10 @@ namespace MCBlog\DB {
             $post_datetime = $posts[$i]['post_datetime'];
 
             // Check login status. If user is logged in as admin, s/he will see the EDIT/DELETE hypertexts
-            array_push($result_array, '<div class=\'post-container\'><legend><h3 id=\'post-topic\'>' . $post_topic . '</h3>
+            array_push($result_array, '<div class=\'post-container\'><legend><h3 class=\'post-topic\'>' . $post_topic . '</h3>
                 </legend>' . \MCBlog\Utils\createEditDeleteStrings(\MCBlog\DB\login_check(), $post_id)
-                 . '<p id=\'post-datetime\'>'
-             . 'Last edit at: ' . $post_datetime . '</p><br><br><p>' . $post_text . '</p></div><br><br>');
+                 . '<p class=\'post-datetime\'>'
+             . 'Last edit at: ' . $post_datetime . '</p><br><br><p class=\'post-content\'>' . $post_text . '</p></div><br><br>');
         }
 
         return $result_array;

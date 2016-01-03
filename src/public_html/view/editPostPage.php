@@ -35,7 +35,6 @@
         <!-- Edit post box -->
         <div class='container' id='posts-page'>
           <div class='jumbotron'>
-            <h2>Edit Post</h2>
             <?php
               include_once $_SERVER['DOCUMENT_ROOT'] . '/model/postBoxes.php';
               echo \MCBlog\editPostBox($mysqli, intval($_GET['post_id']));
@@ -58,7 +57,7 @@
 
     <!--Bootstrap core JavaScript -->
     <?php
-      include_once $_SERVER['DOCUMENT_ROOT'].'/helpers/enableBootstrap.php';
+      include_once $_SERVER['DOCUMENT_ROOT'].'/helpers/js.php';
     ?>
   </body>
 </html>

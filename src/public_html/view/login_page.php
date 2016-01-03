@@ -68,7 +68,7 @@
 
     <!--Bootstrap core JavaScript -->
     <?php
-      include_once $_SERVER['DOCUMENT_ROOT'].'/helpers/enableBootstrap.php';
+      include_once $_SERVER['DOCUMENT_ROOT'].'/helpers/js.php';
     ?>
   </body>
 </html>

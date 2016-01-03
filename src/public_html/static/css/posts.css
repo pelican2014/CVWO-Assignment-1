@@ -5,11 +5,6 @@
             box-sizing: border-box;
 }
 
-#post-datetime {
-	font-size: 16px;
-	font-style: italic;
-}
-
 .post-container {
 	border-radius: 10px;
 	background-color: #eee;
@@ -20,6 +15,20 @@
           	box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
 }
 
-#post-edit-delete {
+.post-edit-delete {
 	float: right;
+}
+
+.post-datetime {
+	font-size: 16px;
+	font-style: italic;
+}
+
+.post-content {
+	font-size: 16px;
+}
+
+a.button {
+    text-decoration: none;
+    color: initial;
 }

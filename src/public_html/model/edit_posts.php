@@ -22,7 +22,7 @@ if (MCBlog\DB\login_check()) {
 
 	$inputTopic = $_POST['post-topic'];
 	$inputText  = $_POST['post-text'];
-	$procText  = nl2br($userInput);
+	$procText  = nl2br($inputText);
 
 	$datetime = new DateTime(NULL, new DateTimeZone('Asia/Singapore'));
 	$datetime_str = $datetime->format('Y-m-d H:i:s');

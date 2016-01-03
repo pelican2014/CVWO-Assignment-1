@@ -125,3 +125,9 @@
 [03-Jan-2016 04:38:07 Asia/Singapore] PHP Warning:  mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement in /home/xiyaproj/public_html/model/db.php on line 128
 [03-Jan-2016 04:38:27 Asia/Singapore] PHP Fatal error:  Call to a member function fetch() on a non-object in /home/xiyaproj/public_html/model/db.php on line 136
 [03-Jan-2016 04:40:58 Asia/Singapore] PHP Fatal error:  Call to a member function fetch() on a non-object in /home/xiyaproj/public_html/model/db.php on line 136
+[03-Jan-2016 15:55:52 Asia/Singapore] PHP Parse error:  syntax error, unexpected '<' in /home/xiyaproj/public_html/model/db.php on line 193
+[03-Jan-2016 17:57:22 Asia/Singapore] PHP Parse error:  syntax error, unexpected ''<p>Click <a href=\'/index.php' (T_CONSTANT_ENCAPSED_STRING) in /home/xiyaproj/public_html/model/postBoxes.php on line 57
+[03-Jan-2016 17:57:51 Asia/Singapore] PHP Parse error:  syntax error, unexpected ''<p>Click <a href=\'/index.php' (T_CONSTANT_ENCAPSED_STRING) in /home/xiyaproj/public_html/model/postBoxes.php on line 57
+[03-Jan-2016 17:58:20 Asia/Singapore] PHP Parse error:  syntax error, unexpected ''<p>Click <a href=\'/index.php' (T_CONSTANT_ENCAPSED_STRING) in /home/xiyaproj/public_html/model/postBoxes.php on line 57
+[03-Jan-2016 18:01:21 Asia/Singapore] PHP Parse error:  syntax error, unexpected ')' in /home/xiyaproj/public_html/model/postBoxes.php on line 44
+[03-Jan-2016 18:09:17 Asia/Singapore] PHP Parse error:  syntax error, unexpected 'Hello' (T_STRING) in /home/xiyaproj/public_html/model/postBoxes.php on line 54
