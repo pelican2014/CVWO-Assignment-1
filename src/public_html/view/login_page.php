@@ -36,7 +36,7 @@
                 <legend>Admin Login</legend>
                 <form action='/model/login_processing.php' method='post'>
                   <p>Password: <input type='text' name='pw'> </p>
-                  <p>Hint: Last line of assignment 2</p>
+                  <p>Hint: Last line of assignment 1 handout</p>
 
                   <?php
                   if (isset($_GET['error'])) {

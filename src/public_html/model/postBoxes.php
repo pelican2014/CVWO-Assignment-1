@@ -51,7 +51,7 @@ namespace MCBlog {
 					 	<textarea name=\'post-text\' class=\'boxsizingBorder\' rows=10 form=\'post-form\'>' . $post_text . '</textarea>
 					 	<br><br>
 					 	<input type=\'submit\' value=\'Confirm\'>
-					 	<a class=\'button\' href=\'/view/posts.php\'><button>Cancel</button></a>
+					 	<a href=\'/view/posts.php\'>Cancel</a>
 					 	</form>';
 			} else {
 				return '<h2>Post is not found</h2>
